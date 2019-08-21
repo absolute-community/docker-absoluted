@@ -1,7 +1,7 @@
 Dashd for Docker
 ================
 
-[![Docker Stats](http://dockeri.co/image/dashpay/dashd)](https://hub.docker.com/r/dashpay/dashd/)
+[![Docker Stats](https://hub.docker.com/r/absolutecommunity/docker-absoluted/)](https://hub.docker.com/r/absolutecommunity/docker-absoluted/)
 
 [![Build Status](https://travis-ci.org/dashpay/docker-dashd.svg?branch=master)](https://travis-ci.org/dashpay/docker-dashd/)
 
