@@ -1,11 +1,10 @@
 Dashd for Docker
 ================
+[![dockeri.co](https://dockeri.co/image/absolutecommunity/docker-absoluted/)](https://hub.docker.com/r/absolutecommunity/docker-absoluted/)
 
-[![Docker Stats](https://hub.docker.com/r/absolutecommunity/docker-absoluted/)](https://hub.docker.com/r/absolutecommunity/docker-absoluted/)
+[![Build Status](https://travis-ci.org/absolute-community/docker-absoluted.svg?branch=master)](https://travis-ci.org/absolute-community/docker-absoluted/)
 
-[![Build Status](https://travis-ci.org/dashpay/docker-dashd.svg?branch=master)](https://travis-ci.org/dashpay/docker-dashd/)
-
-
+https://
 Docker image that runs the Dash dashd node in a container for easy deployment.
 
 
