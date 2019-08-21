@@ -1,10 +1,9 @@
-Dashd for Docker
+Absoluted for Docker
 ================
 [![dockeri.co](https://dockeri.co/image/absolutecommunity/docker-absoluted/)](https://hub.docker.com/r/absolutecommunity/docker-absoluted/)
 
 [![Build Status](https://travis-ci.org/absolute-community/docker-absoluted.svg?branch=master)](https://travis-ci.org/absolute-community/docker-absoluted/)
 
-https://
 Docker image that runs the Dash dashd node in a container for easy deployment.
 
 
@@ -21,7 +20,7 @@ Recommended and tested on Vultr 1024 MB RAM/320 GB disk instance @ $8/mo.  Vultr
 Really Fast Quick Start
 -----------------------
 
-One liner for Ubuntu 14.04 LTS machines with JSON-RPC enabled on localhost and adds upstart init script:
+One liner for Ubuntu 16.04 machines with JSON-RPC enabled on localhost and adds upstart init script:
 
     curl https://raw.githubusercontent.com/dashpay/docker-dashd/master/bootstrap-host.sh | sh -s trusty
 
@@ -29,7 +28,7 @@ One liner for Ubuntu 14.04 LTS machines with JSON-RPC enabled on localhost and a
 Quick Start
 -----------
 
-1. Create a `dashd-data` volume to persist the dashd blockchain data, should exit immediately.  The `dashd-data` container will store the blockchain when the node container is recreated (software upgrade, reboot, etc):
+1. Create a `absoluted-data` volume to persist the dashd blockchain data, should exit immediately.  The `dashd-data` container will store the blockchain when the node container is recreated (software upgrade, reboot, etc):
 
         docker volume create --name=dashd-data
         docker run -v dashd-data:/dash --name=dashd-node -d \
@@ -62,10 +61,4 @@ Documentation
             dashpay/dashd
 
 * Additional documentation in the [docs folder](docs).
-
-Credits
--------
-
-Original work by Kyle Manna [https://github.com/kylemanna/docker-bitcoind](https://github.com/kylemanna/docker-bitcoind).
-Modified to use Dash Core instead of Bitcoin Core.
 
